@@ -1,0 +1,9 @@
+C:\Users\ASUS\documents\visual studio 2015\Projects\QLHS\QLHSDTO\obj\Debug\QLHSDTO.Resources.resources
+C:\Users\ASUS\documents\visual studio 2015\Projects\QLHS\QLHSDTO\obj\Debug\QLHSDTO.vbproj.GenerateResource.Cache
+C:\Users\ASUS\documents\visual studio 2015\Projects\QLHS\QLHSDTO\obj\Debug\QLHSDTO.xml
+C:\Users\ASUS\documents\visual studio 2015\Projects\QLHS\QLHSDTO\obj\Debug\QLHSDTO.vbprojResolveAssemblyReference.cache
+C:\Users\ASUS\documents\visual studio 2015\Projects\QLHS\QLHSDTO\bin\Debug\QLHSDTO.exe
+C:\Users\ASUS\documents\visual studio 2015\Projects\QLHS\QLHSDTO\bin\Debug\QLHSDTO.pdb
+C:\Users\ASUS\documents\visual studio 2015\Projects\QLHS\QLHSDTO\bin\Debug\QLHSDTO.xml
+C:\Users\ASUS\documents\visual studio 2015\Projects\QLHS\QLHSDTO\obj\Debug\QLHSDTO.exe
+C:\Users\ASUS\documents\visual studio 2015\Projects\QLHS\QLHSDTO\obj\Debug\QLHSDTO.pdb

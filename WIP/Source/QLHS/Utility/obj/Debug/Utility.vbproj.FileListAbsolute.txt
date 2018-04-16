@@ -1,0 +1,9 @@
+C:\Users\ASUS\documents\visual studio 2015\Projects\QLHS\Utility\obj\Debug\Utility.vbprojResolveAssemblyReference.cache
+C:\Users\ASUS\documents\visual studio 2015\Projects\QLHS\Utility\obj\Debug\Utility.Resources.resources
+C:\Users\ASUS\documents\visual studio 2015\Projects\QLHS\Utility\obj\Debug\Utility.vbproj.GenerateResource.Cache
+C:\Users\ASUS\documents\visual studio 2015\Projects\QLHS\Utility\obj\Debug\Utility.xml
+C:\Users\ASUS\documents\visual studio 2015\Projects\QLHS\Utility\bin\Debug\Utility.exe
+C:\Users\ASUS\documents\visual studio 2015\Projects\QLHS\Utility\bin\Debug\Utility.pdb
+C:\Users\ASUS\documents\visual studio 2015\Projects\QLHS\Utility\bin\Debug\Utility.xml
+C:\Users\ASUS\documents\visual studio 2015\Projects\QLHS\Utility\obj\Debug\Utility.exe
+C:\Users\ASUS\documents\visual studio 2015\Projects\QLHS\Utility\obj\Debug\Utility.pdb
