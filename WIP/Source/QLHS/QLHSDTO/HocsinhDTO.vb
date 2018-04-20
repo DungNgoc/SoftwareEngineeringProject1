@@ -4,7 +4,7 @@
     Private strGioitinh As String
     Private strDiachi As String
     Private strLop As String
-    Private dateNgaysinh As String
+    Private dateNgaysinh As DateTime
     Public Sub New()
     End Sub
     Public Sub New(strMahocsinh As Integer, strHotenhocsinh As String, strGioitinh As String, strDiachi As String, strLop As String, dateNgaysinh As Date)

@@ -11,68 +11,68 @@ Public Class HocsinhDAL
     Public Sub New(ConnectionString As String)
         Me.connectionString = ConnectionString
     End Sub
-    Public Function BuildMasohocsinh(ByRef nextMasohocsinh As String) As Result
-        nextMasohocsinh = String.Empty
-        Dim y = DateTime.Now.Year
-        Dim x = y.ToString().Substring(2)
-        nextMasohocsinh = x + "000000"
-        Dim query As String = String.Empty
-        query &= "SELECT TOP 1 [Masohocsinh]"
-        query &= "FROM [tblHocsinh]"
-        query &= "ORDER BY [Masohocsinh] DESC"
-        Using conn As New SqlConnection(connectionString)
-            Using comm As New SqlCommand()
-                With comm
-                    .Connection = conn
-                    .CommandType = CommandType.Text
-                    .CommandText = query
-                End With
-                Try
-                    conn.Open()
-                    Dim reader As SqlDataReader
-                    Dim msOnDB As String
-                    msOnDB = Nothing
-                    If reader.HasRows = True Then
-                        While reader.Read()
-                            msOnDB = reader("Masohocsinh")
-                        End While
-                    End If
-                    If (msOnDB <> Nothing And msOnDB.Length >= 8) Then
-                        Dim currentYear = DateTime.Now.Year.ToString().Substring(2)
-                        Dim icurrentYear = Integer.Parse(currentYear)
-                        Dim currentYearOnDB = msOnDB.Substring(0, 2)
-                        Dim iCurrentYearOnDB = Integer.Parse(currentYearOnDB)
-                        Dim year = icurrentYear
-                        If (year < iCurrentYearOnDB) Then
-                            year = iCurrentYearOnDB
-                        End If
-                        nextMasohocsinh = year.ToString()
-                        Dim v = msOnDB.Substring(2)
-                        Dim convertDecimal = Convert.ToDecimal(v)
-                        convertDecimal = convertDecimal + 1
-                        Dim tmp = convertDecimal.ToString()
-                        tmp = tmp.PadLeft(msOnDB.Length - 2, "0")
-                        nextMasohocsinh = nextMasohocsinh + tmp
-                        System.Console.WriteLine(nextMasohocsinh)
+    'Public Function BuildMasohocsinh(ByRef nextMasohocsinh As String) As Result
+    '    nextMasohocsinh = String.Empty
+    '    Dim y = DateTime.Now.Year
+    '    Dim x = y.ToString().Substring(2)
+    '    nextMasohocsinh = x + "000000"
+    '    Dim query As String = String.Empty
+    '    query &= "SELECT TOP 1 [Masohocsinh]"
+    '    query &= "FROM [tblHocsinh]"
+    '    query &= "ORDER BY [Masohocsinh] DESC"
+    '    Using conn As New SqlConnection(connectionString)
+    '        Using comm As New SqlCommand()
+    '            With comm
+    '                .Connection = conn
+    '                .CommandType = CommandType.Text
+    '                .CommandText = query
+    '            End With
+    '            Try
+    '                conn.Open()
+    '                Dim reader As SqlDataReader
+    '                Dim msOnDB As String
+    '                msOnDB = Nothing
+    '                If reader.HasRows = True Then
+    '                    While reader.Read()
+    '                        msOnDB = reader("Masohocsinh")
+    '                    End While
+    '                End If
+    '                If (msOnDB <> Nothing And msOnDB.Length >= 8) Then
+    '                    Dim currentYear = DateTime.Now.Year.ToString().Substring(2)
+    '                    Dim icurrentYear = Integer.Parse(currentYear)
+    '                    Dim currentYearOnDB = msOnDB.Substring(0, 2)
+    '                    Dim iCurrentYearOnDB = Integer.Parse(currentYearOnDB)
+    '                    Dim year = icurrentYear
+    '                    If (year < iCurrentYearOnDB) Then
+    '                        year = iCurrentYearOnDB
+    '                    End If
+    '                    nextMasohocsinh = year.ToString()
+    '                    Dim v = msOnDB.Substring(2)
+    '                    Dim convertDecimal = Convert.ToDecimal(v)
+    '                    convertDecimal = convertDecimal + 1
+    '                    Dim tmp = convertDecimal.ToString()
+    '                    tmp = tmp.PadLeft(msOnDB.Length - 2, "0")
+    '                    nextMasohocsinh = nextMasohocsinh + tmp
+    '                    System.Console.WriteLine(nextMasohocsinh)
 
-                    End If
-                Catch ex As Exception
-                    conn.Close()
-                    System.Console.WriteLine(ex.StackTrace)
-                    Return New Result(False, "Lấy tự động Mã số Học sinh kế tiếp không thành công", ex.StackTrace)
-                End Try
-            End Using
-        End Using
-        Return New Result(True)
-    End Function
+    '                End If
+    '            Catch ex As Exception
+    '                conn.Close()
+    '                System.Console.WriteLine(ex.StackTrace)
+    '                Return New Result(False, "Lấy tự động Mã số Học sinh kế tiếp không thành công", ex.StackTrace)
+    '            End Try
+    '        End Using
+    '    End Using
+    '    Return New Result(True)
+    'End Function
     Public Function Themhocsinh(hocsinh As HocsinhDTO) As Result
         Dim query As String = String.Empty
         query &= "INSERT INTO [tblHocSinh] ([Mahocsinh], [Hotenhocsinh], [Gioitinh], [Ngaysinh], [Diachi],[Lop])"
         query &= "VALUES (@Mahocsinh,@Hotenhocsinh,@Gioitinh,@Ngaysinh,@Diachi,@Lop)"
 
-        Dim nextMasohocsinh = "1"
-        BuildMasohocsinh(nextMasohocsinh)
-        hocsinh.Mahocsinh = nextMasohocsinh
+        'Dim nextMasohocsinh = "1"
+        'BuildMasohocsinh(nextMasohocsinh)
+        'hocsinh.Mahocsinh = nextMasohocsinh
 
         Using conn As New SqlConnection(connectionString)
             Using comm As New SqlCommand()

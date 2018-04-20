@@ -13,3 +13,20 @@ C:\Users\ASUS\documents\visual studio 2015\Projects\QLHS\QLHSDAL\bin\Debug\Utili
 C:\Users\ASUS\documents\visual studio 2015\Projects\QLHS\QLHSDAL\bin\Debug\Utility.xml
 C:\Users\ASUS\documents\visual studio 2015\Projects\QLHS\QLHSDAL\obj\Debug\QLHSDAL.exe
 C:\Users\ASUS\documents\visual studio 2015\Projects\QLHS\QLHSDAL\obj\Debug\QLHSDAL.pdb
+C:\Users\ASUS\Desktop\Git2\SoftwareEngineeringProject1\WIP\Source\QLHS\QLHSDAL\bin\Debug\QLHSDAL.exe
+C:\Users\ASUS\Desktop\Git2\SoftwareEngineeringProject1\WIP\Source\QLHS\QLHSDAL\bin\Debug\QLHSDAL.pdb
+C:\Users\ASUS\Desktop\Git2\SoftwareEngineeringProject1\WIP\Source\QLHS\QLHSDAL\bin\Debug\QLHSDAL.xml
+C:\Users\ASUS\Desktop\Git2\SoftwareEngineeringProject1\WIP\Source\QLHS\QLHSDAL\bin\Debug\QLHSDTO.exe
+C:\Users\ASUS\Desktop\Git2\SoftwareEngineeringProject1\WIP\Source\QLHS\QLHSDAL\bin\Debug\Utility.exe
+C:\Users\ASUS\Desktop\Git2\SoftwareEngineeringProject1\WIP\Source\QLHS\QLHSDAL\bin\Debug\QLHSDTO.pdb
+C:\Users\ASUS\Desktop\Git2\SoftwareEngineeringProject1\WIP\Source\QLHS\QLHSDAL\bin\Debug\QLHSDTO.xml
+C:\Users\ASUS\Desktop\Git2\SoftwareEngineeringProject1\WIP\Source\QLHS\QLHSDAL\bin\Debug\Utility.pdb
+C:\Users\ASUS\Desktop\Git2\SoftwareEngineeringProject1\WIP\Source\QLHS\QLHSDAL\bin\Debug\Utility.xml
+C:\Users\ASUS\Desktop\Git2\SoftwareEngineeringProject1\WIP\Source\QLHS\QLHSDAL\obj\Debug\QLHSDAL.vbprojResolveAssemblyReference.cache
+C:\Users\ASUS\Desktop\Git2\SoftwareEngineeringProject1\WIP\Source\QLHS\QLHSDAL\obj\Debug\QLHSDAL.Resources.resources
+C:\Users\ASUS\Desktop\Git2\SoftwareEngineeringProject1\WIP\Source\QLHS\QLHSDAL\obj\Debug\QLHSDAL.vbproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\Git2\SoftwareEngineeringProject1\WIP\Source\QLHS\QLHSDAL\obj\Debug\QLHSDAL.vbproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Git2\SoftwareEngineeringProject1\WIP\Source\QLHS\QLHSDAL\obj\Debug\QLHSDAL.vbproj.CopyComplete
+C:\Users\ASUS\Desktop\Git2\SoftwareEngineeringProject1\WIP\Source\QLHS\QLHSDAL\obj\Debug\QLHSDAL.exe
+C:\Users\ASUS\Desktop\Git2\SoftwareEngineeringProject1\WIP\Source\QLHS\QLHSDAL\obj\Debug\QLHSDAL.xml
+C:\Users\ASUS\Desktop\Git2\SoftwareEngineeringProject1\WIP\Source\QLHS\QLHSDAL\obj\Debug\QLHSDAL.pdb

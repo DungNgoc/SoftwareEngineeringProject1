@@ -7,3 +7,13 @@ C:\Users\ASUS\documents\visual studio 2015\Projects\QLHS\QLHSDTO\bin\Debug\QLHSD
 C:\Users\ASUS\documents\visual studio 2015\Projects\QLHS\QLHSDTO\bin\Debug\QLHSDTO.xml
 C:\Users\ASUS\documents\visual studio 2015\Projects\QLHS\QLHSDTO\obj\Debug\QLHSDTO.exe
 C:\Users\ASUS\documents\visual studio 2015\Projects\QLHS\QLHSDTO\obj\Debug\QLHSDTO.pdb
+C:\Users\ASUS\Desktop\Git2\SoftwareEngineeringProject1\WIP\Source\QLHS\QLHSDTO\bin\Debug\QLHSDTO.exe
+C:\Users\ASUS\Desktop\Git2\SoftwareEngineeringProject1\WIP\Source\QLHS\QLHSDTO\bin\Debug\QLHSDTO.pdb
+C:\Users\ASUS\Desktop\Git2\SoftwareEngineeringProject1\WIP\Source\QLHS\QLHSDTO\bin\Debug\QLHSDTO.xml
+C:\Users\ASUS\Desktop\Git2\SoftwareEngineeringProject1\WIP\Source\QLHS\QLHSDTO\obj\Debug\QLHSDTO.vbprojResolveAssemblyReference.cache
+C:\Users\ASUS\Desktop\Git2\SoftwareEngineeringProject1\WIP\Source\QLHS\QLHSDTO\obj\Debug\QLHSDTO.Resources.resources
+C:\Users\ASUS\Desktop\Git2\SoftwareEngineeringProject1\WIP\Source\QLHS\QLHSDTO\obj\Debug\QLHSDTO.vbproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\Git2\SoftwareEngineeringProject1\WIP\Source\QLHS\QLHSDTO\obj\Debug\QLHSDTO.vbproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Git2\SoftwareEngineeringProject1\WIP\Source\QLHS\QLHSDTO\obj\Debug\QLHSDTO.exe
+C:\Users\ASUS\Desktop\Git2\SoftwareEngineeringProject1\WIP\Source\QLHS\QLHSDTO\obj\Debug\QLHSDTO.xml
+C:\Users\ASUS\Desktop\Git2\SoftwareEngineeringProject1\WIP\Source\QLHS\QLHSDTO\obj\Debug\QLHSDTO.pdb
