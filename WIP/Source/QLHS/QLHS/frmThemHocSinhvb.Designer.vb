@@ -177,7 +177,7 @@ Partial Class frmThemHocSinhvb
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.MaximizeBox = False
         Me.Name = "frmThemHocSinhvb"
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "frmThemHocSinhvb"
         Me.ResumeLayout(False)
         Me.PerformLayout()

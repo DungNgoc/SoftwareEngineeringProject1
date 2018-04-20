@@ -44,12 +44,12 @@ Public Class HocsinhBUS
         '2. insert to DB
         Return HocsinhDAL.Capnhathocsinh(hocsinh)
     End Function
-    Public Function Chontatcahocsinh(ByRef listHocsinh As List(Of HocsinhDTO)) As Result
-        '1. verify data here!!
+    'Public Function Chontatcahocsinh(ByRef listHocsinh As List(Of HocsinhDTO)) As Result
+    '    '1. verify data here!!
 
-        '2. insert to DB
-        Return HocsinhDAL.Chontatcahocsinh(listHocsinh)
-    End Function
+    '    '2. insert to DB
+    '    Return HocsinhDAL.Chontatcahocsinh(listHocsinh)
+    'End Function
     'Public Function buildMahocsinh(ByRef nextMahocsinh As Integer) As Result
     '    Return HocsinhDAL.BuildMasohocsinh(nextMahocsinh)
     'End Function

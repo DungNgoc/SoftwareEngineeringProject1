@@ -97,38 +97,39 @@ Public Class HocsinhDAL
                 End Try
             End Using
         End Using
+        Return New Result(True) ' thanh cong
     End Function
-    Public Function Chontatcahocsinh(ByRef Listhocsinh As List(Of HocsinhDTO)) As Result
-        Dim query As String = String.Empty
-        query &= "SELECT [Mahocsinh], [Hotenhocsinh], [Gioitinh], [Ngaysinh], [Diachi],[Lop]"
-        query &= "FROM [tblHocsinh]"
-        Using conn As New SqlConnection(connectionString)
-            Using comm As New SqlCommand()
-                With comm
-                    .Connection = conn
-                    .CommandType = CommandType.Text
-                    .CommandText = query
-                End With
-                Try
-                    conn.Open()
-                    Dim reader As SqlDataReader
-                    reader = comm.ExecuteReader()
-                    If reader.HasRows = True Then
-                        Listhocsinh.Clear()
-                        While reader.Read()
-                            Listhocsinh.Add(New HocsinhDTO(reader("Mahocsinh"), reader("Hotenhocsinh"), reader("Gioitinh"), reader("Ngaysinh"), reader("Diachi"), reader("Lop")))
+    'Public Function Chontatcahocsinh(ByRef Listhocsinh As List(Of HocsinhDTO)) As Result
+    '    Dim query As String = String.Empty
+    '    query &= "SELECT [Mahocsinh], [Hotenhocsinh], [Gioitinh], [Ngaysinh], [Diachi],[Lop]"
+    '    query &= "FROM [tblHocsinh]"
+    '    Using conn As New SqlConnection(connectionString)
+    '        Using comm As New SqlCommand()
+    '            With comm
+    '                .Connection = conn
+    '                .CommandType = CommandType.Text
+    '                .CommandText = query
+    '            End With
+    '            Try
+    '                conn.Open()
+    '                Dim reader As SqlDataReader
+    '                reader = comm.ExecuteReader()
+    '                If reader.HasRows = True Then
+    '                    Listhocsinh.Clear()
+    '                    While reader.Read()
+    '                        Listhocsinh.Add(New HocsinhDTO(reader("Mahocsinh"), reader("Hotenhocsinh"), reader("Gioitinh"), reader("Ngaysinh"), reader("Diachi"), reader("Lop")))
 
-                        End While
-                    End If
-                Catch ex As Exception
-                    conn.Close()
-                    System.Console.WriteLine(ex.StackTrace)
-                    Return New Result(False, "Lấy tất cả Học sinh không thành công", ex.StackTrace)
-                End Try
-            End Using
-        End Using
-        Return New Result(True)
-    End Function
+    '                    End While
+    '                End If
+    '            Catch ex As Exception
+    '                conn.Close()
+    '                System.Console.WriteLine(ex.StackTrace)
+    '                Return New Result(False, "Lấy tất cả Học sinh không thành công", ex.StackTrace)
+    '            End Try
+    '        End Using
+    '    End Using
+    '    Return New Result(True)
+    'End Function
     Public Function Capnhathocsinh(hocsinh As HocsinhDTO) As Result
         Dim query As String = String.Empty
         query &= " UPDATE [tblHocsinh] SET"
