@@ -67,8 +67,8 @@ Public Class HocsinhDAL
     'End Function
     Public Function Themhocsinh(hocsinh As HocsinhDTO) As Result
         Dim query As String = String.Empty
-        query &= "INSERT INTO [tblHocSinh] ([Mahocsinh], [Hotenhocsinh], [Gioitinh], [Ngaysinh], [Diachi],[Lop])"
-        query &= "VALUES (@Mahocsinh,@Hotenhocsinh,@Gioitinh,@Ngaysinh,@Diachi,@Lop)"
+        query &= "INSERT INTO [tblHocSinh] ([Mahocsinh], [Hotenhocsinh], [Gioitinh], [Ngaysinh], [Diachi],[Malop])"
+        query &= "VALUES (@Mahocsinh,@Hotenhocsinh,@Gioitinh,@Ngaysinh,@Diachi,@Malop)"
 
         'Dim nextMasohocsinh = "1"
         'BuildMasohocsinh(nextMasohocsinh)
@@ -85,7 +85,7 @@ Public Class HocsinhDAL
                     .Parameters.AddWithValue("@Gioitinh", hocsinh.Gioitinh)
                     .Parameters.AddWithValue("@Ngaysinh", hocsinh.Ngaysinh)
                     .Parameters.AddWithValue("@Diachi", hocsinh.Diachi)
-                    .Parameters.AddWithValue("@Lop", hocsinh.Lop)
+                    .Parameters.AddWithValue("@Malop", hocsinh.Lop)
                 End With
                 Try
                     conn.Open()

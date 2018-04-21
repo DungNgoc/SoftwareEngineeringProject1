@@ -30,13 +30,15 @@ Partial Class frmThemHocSinhvb
         Me.Label2 = New System.Windows.Forms.Label()
         Me.txtGioitinh = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.txtLop = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.txtDiachi = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.btnNhap = New System.Windows.Forms.Button()
         Me.btnNhapvadong = New System.Windows.Forms.Button()
         Me.dtpNgaysinh = New System.Windows.Forms.DateTimePicker()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.cbLop = New System.Windows.Forms.ComboBox()
+        Me.cbKhoi = New System.Windows.Forms.ComboBox()
         Me.SuspendLayout()
         '
         'Label1
@@ -54,6 +56,7 @@ Partial Class frmThemHocSinhvb
         Me.txtMahocsinh.Name = "txtMahocsinh"
         Me.txtMahocsinh.Size = New System.Drawing.Size(336, 22)
         Me.txtMahocsinh.TabIndex = 1
+        Me.txtMahocsinh.Text = "16521576"
         '
         'txtHotenhocsinh
         '
@@ -61,6 +64,7 @@ Partial Class frmThemHocSinhvb
         Me.txtHotenhocsinh.Name = "txtHotenhocsinh"
         Me.txtHotenhocsinh.Size = New System.Drawing.Size(336, 22)
         Me.txtHotenhocsinh.TabIndex = 5
+        Me.txtHotenhocsinh.Text = "Nguyen Ngoc Dung"
         '
         'Label3
         '
@@ -86,6 +90,7 @@ Partial Class frmThemHocSinhvb
         Me.txtGioitinh.Name = "txtGioitinh"
         Me.txtGioitinh.Size = New System.Drawing.Size(336, 22)
         Me.txtGioitinh.TabIndex = 7
+        Me.txtGioitinh.Text = "Nu"
         '
         'Label4
         '
@@ -96,17 +101,10 @@ Partial Class frmThemHocSinhvb
         Me.Label4.TabIndex = 6
         Me.Label4.Text = "Giới tính"
         '
-        'txtLop
-        '
-        Me.txtLop.Location = New System.Drawing.Point(273, 207)
-        Me.txtLop.Name = "txtLop"
-        Me.txtLop.Size = New System.Drawing.Size(336, 22)
-        Me.txtLop.TabIndex = 13
-        '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(112, 210)
+        Me.Label5.Location = New System.Drawing.Point(116, 246)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(32, 17)
         Me.Label5.TabIndex = 12
@@ -118,6 +116,7 @@ Partial Class frmThemHocSinhvb
         Me.txtDiachi.Name = "txtDiachi"
         Me.txtDiachi.Size = New System.Drawing.Size(336, 22)
         Me.txtDiachi.TabIndex = 11
+        Me.txtDiachi.Text = "Dong Nai"
         '
         'Label6
         '
@@ -130,7 +129,7 @@ Partial Class frmThemHocSinhvb
         '
         'btnNhap
         '
-        Me.btnNhap.Location = New System.Drawing.Point(115, 255)
+        Me.btnNhap.Location = New System.Drawing.Point(115, 283)
         Me.btnNhap.Name = "btnNhap"
         Me.btnNhap.Size = New System.Drawing.Size(100, 53)
         Me.btnNhap.TabIndex = 14
@@ -139,7 +138,7 @@ Partial Class frmThemHocSinhvb
         '
         'btnNhapvadong
         '
-        Me.btnNhapvadong.Location = New System.Drawing.Point(465, 255)
+        Me.btnNhapvadong.Location = New System.Drawing.Point(465, 283)
         Me.btnNhapvadong.Name = "btnNhapvadong"
         Me.btnNhapvadong.Size = New System.Drawing.Size(144, 53)
         Me.btnNhapvadong.TabIndex = 16
@@ -155,15 +154,42 @@ Partial Class frmThemHocSinhvb
         Me.dtpNgaysinh.TabIndex = 17
         Me.dtpNgaysinh.Value = New Date(1998, 12, 26, 0, 0, 0, 0)
         '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(116, 212)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(36, 17)
+        Me.Label7.TabIndex = 18
+        Me.Label7.Text = "Khối"
+        '
+        'cbLop
+        '
+        Me.cbLop.FormattingEnabled = True
+        Me.cbLop.Location = New System.Drawing.Point(273, 239)
+        Me.cbLop.Name = "cbLop"
+        Me.cbLop.Size = New System.Drawing.Size(336, 24)
+        Me.cbLop.TabIndex = 20
+        '
+        'cbKhoi
+        '
+        Me.cbKhoi.FormattingEnabled = True
+        Me.cbKhoi.Location = New System.Drawing.Point(273, 209)
+        Me.cbKhoi.Name = "cbKhoi"
+        Me.cbKhoi.Size = New System.Drawing.Size(336, 24)
+        Me.cbKhoi.TabIndex = 21
+        '
         'frmThemHocSinhvb
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(859, 468)
+        Me.Controls.Add(Me.cbKhoi)
+        Me.Controls.Add(Me.cbLop)
+        Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.dtpNgaysinh)
         Me.Controls.Add(Me.btnNhapvadong)
         Me.Controls.Add(Me.btnNhap)
-        Me.Controls.Add(Me.txtLop)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.txtDiachi)
         Me.Controls.Add(Me.Label6)
@@ -192,11 +218,13 @@ Partial Class frmThemHocSinhvb
     Friend WithEvents Label2 As Label
     Friend WithEvents txtGioitinh As TextBox
     Friend WithEvents Label4 As Label
-    Friend WithEvents txtLop As TextBox
     Friend WithEvents Label5 As Label
     Friend WithEvents txtDiachi As TextBox
     Friend WithEvents Label6 As Label
     Friend WithEvents btnNhap As Button
     Friend WithEvents btnNhapvadong As Button
     Friend WithEvents dtpNgaysinh As DateTimePicker
+    Friend WithEvents Label7 As Label
+    Friend WithEvents cbLop As ComboBox
+    Friend WithEvents cbKhoi As ComboBox
 End Class

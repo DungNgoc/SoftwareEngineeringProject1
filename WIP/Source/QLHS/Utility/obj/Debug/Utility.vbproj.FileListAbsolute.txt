@@ -10,7 +10,6 @@ C:\Users\ASUS\documents\visual studio 2015\Projects\QLHS\Utility\obj\Debug\Utili
 C:\Users\ASUS\Desktop\Git2\SoftwareEngineeringProject1\WIP\Source\QLHS\Utility\bin\Debug\Utility.exe
 C:\Users\ASUS\Desktop\Git2\SoftwareEngineeringProject1\WIP\Source\QLHS\Utility\bin\Debug\Utility.pdb
 C:\Users\ASUS\Desktop\Git2\SoftwareEngineeringProject1\WIP\Source\QLHS\Utility\bin\Debug\Utility.xml
-C:\Users\ASUS\Desktop\Git2\SoftwareEngineeringProject1\WIP\Source\QLHS\Utility\obj\Debug\Utility.vbprojResolveAssemblyReference.cache
 C:\Users\ASUS\Desktop\Git2\SoftwareEngineeringProject1\WIP\Source\QLHS\Utility\obj\Debug\Utility.Resources.resources
 C:\Users\ASUS\Desktop\Git2\SoftwareEngineeringProject1\WIP\Source\QLHS\Utility\obj\Debug\Utility.vbproj.GenerateResource.cache
 C:\Users\ASUS\Desktop\Git2\SoftwareEngineeringProject1\WIP\Source\QLHS\Utility\obj\Debug\Utility.vbproj.CoreCompileInputs.cache

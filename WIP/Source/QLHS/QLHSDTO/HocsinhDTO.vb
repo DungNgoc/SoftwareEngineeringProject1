@@ -5,6 +5,7 @@
     Private strDiachi As String
     Private strLop As String
     Private dateNgaysinh As DateTime
+    'Private strKhoi As String
     Public Sub New()
     End Sub
     Public Sub New(strMahocsinh As Integer, strHotenhocsinh As String, strGioitinh As String, strDiachi As String, strLop As String, dateNgaysinh As Date)
@@ -14,6 +15,7 @@
         Me.strDiachi = strDiachi
         Me.strLop = strLop
         Me.dateNgaysinh = dateNgaysinh
+        ' Me.strKhoi = strKhoi
     End Sub
     Property Mahocsinh() As String
         Get
@@ -63,4 +65,12 @@
             dateNgaysinh = value
         End Set
     End Property
+    'Property Khoi() As String
+    '    Get
+    '        Return strKhoi
+    '    End Get
+    '    Set(ByVal value As String)
+    '        strKhoi = value
+    '    End Set
+    'End Property
 End Class
